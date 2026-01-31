@@ -1,0 +1,11 @@
+D:\learning\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.deps.json
+D:\learning\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.dll
+D:\learning\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.pdb
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.AssemblyInfoInputs.cache
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.AssemblyInfo.cs
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.csproj.CoreCompileInputs.cache
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.dll
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\refint\Clean.Persistence.dll
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.pdb
+D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\ref\Clean.Persistence.dll

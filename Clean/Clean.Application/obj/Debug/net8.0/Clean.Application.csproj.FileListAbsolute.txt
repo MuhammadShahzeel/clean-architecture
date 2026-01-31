@@ -1,0 +1,11 @@
+D:\learning\Clean\Clean.Application\bin\Debug\net8.0\Clean.Application.deps.json
+D:\learning\Clean\Clean.Application\bin\Debug\net8.0\Clean.Application.dll
+D:\learning\Clean\Clean.Application\bin\Debug\net8.0\Clean.Application.pdb
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.AssemblyInfoInputs.cache
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.AssemblyInfo.cs
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.csproj.CoreCompileInputs.cache
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.dll
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\refint\Clean.Application.dll
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.pdb
+D:\learning\Clean\Clean.Application\obj\Debug\net8.0\ref\Clean.Application.dll
