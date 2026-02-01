@@ -9,3 +9,21 @@ D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.dll
 D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\refint\Clean.Persistence.dll
 D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.pdb
 D:\learning\Clean\Clean.Persistence\obj\Debug\net8.0\ref\Clean.Persistence.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.deps.json
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.pdb
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Application.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Domain.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Application.pdb
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Domain.pdb
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.csproj.AssemblyReference.cache
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.AssemblyInfoInputs.cache
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.AssemblyInfo.cs
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.sourcelink.json
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Pe.0BA466D3.Up2Date
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\refint\Clean.Persistence.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.pdb
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\ref\Clean.Persistence.dll

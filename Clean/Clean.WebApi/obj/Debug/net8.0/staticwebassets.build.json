@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "NmfpsJOXFRLJbMuEcm5EcZ4NP0U6ZJgbQIa2bR9V6GA=",
-  "Source": "Clean.WebApi",
-  "BasePath": "_content/Clean.WebApi",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"RuMqaJeusbwvmvq7h9Rrc8dcdBbfliOxqbHKWyaRx74=","Source":"Clean.WebApi","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

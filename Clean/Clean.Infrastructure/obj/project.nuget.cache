@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "k4PimXO8bMM=",
+  "dgSpecHash": "rRnZvHLOyxA=",
   "success": true,
-  "projectFilePath": "D:\\learning\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muhammad Shahzeel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.2\\microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

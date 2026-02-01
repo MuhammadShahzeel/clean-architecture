@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\learning\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {}
+    "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\learning\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
+    "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\learning\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
-        "projectName": "Clean.Infrastructure",
-        "projectPath": "D:\\learning\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\shahzeel\\.nuget\\packages\\",
-        "outputPath": "D:\\learning\\Clean\\Clean.Infrastructure\\obj\\",
+        "projectUniqueName": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj",
+        "projectName": "Clean.Application",
+        "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Shahzeel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shahzeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Muhammad Shahzeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,81 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj",
+        "projectName": "Clean.Domain",
+        "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Shahzeel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Shahzeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +119,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +140,76 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
+        "projectName": "Clean.Infrastructure",
+        "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Muhammad Shahzeel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Muhammad Shahzeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj": {
+                "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

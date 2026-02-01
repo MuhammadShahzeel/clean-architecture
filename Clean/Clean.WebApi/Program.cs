@@ -1,3 +1,7 @@
+using Clean.Application;
+using Clean.Infrastructure;
+using Clean.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,7 +10,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddApplication(); // Extension method from Clean.Application project
 
+builder.Services.AddInfrastructure(); // Extension method from Clean.Infrastructure project
+builder.Services.AddPersistance();  
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

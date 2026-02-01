@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vyWqCT3pn9Q=",
+  "dgSpecHash": "qUPnnqmK9lU=",
   "success": true,
-  "projectFilePath": "D:\\learning\\Clean\\Clean.Persistence\\Clean.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Persistence\\Clean.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muhammad Shahzeel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.2\\microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
