@@ -1,6 +1,6 @@
-using Clean.Application;
-using Clean.Infrastructure;
-using Clean.Persistence;
+using Clean.Application.Extensions;
+using Clean.Infrastructure.Extensions;
+using Clean.Persistence.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

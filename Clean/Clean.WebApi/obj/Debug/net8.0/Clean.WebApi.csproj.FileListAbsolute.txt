@@ -79,3 +79,12 @@ C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\ref
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.pdb
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.genruntimeconfig.cache
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\ref\Clean.WebApi.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\MediatR.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

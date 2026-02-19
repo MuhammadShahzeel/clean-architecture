@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\queries\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\queries\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\queries\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\queries\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\commands\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\clean.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\clean.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.infrastructure\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|solutionrelative:clean.infrastructure\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.persistence\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|solutionrelative:clean.persistence\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.infrastructure\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|solutionrelative:clean.infrastructure\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,31 +70,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Persistence\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Persistence\\ServiceExtentions.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Persistence\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Persistence\\ServiceExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.WebApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Clean.WebApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.WebApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Clean.WebApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:06:27.212Z"
+              "WhenOpened": "2026-02-19T09:05:39.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\Product.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Queries\\Product.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\Product.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Queries\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T08:17:21.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T08:15:36.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Infrastructure\\ServiceExtentions.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Infrastructure\\ServiceExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:04:13.322Z"
+              "WhenOpened": "2026-02-19T08:09:51.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:48:53.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:38:04.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clean.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj",
+              "RelativeDocumentMoniker": "Clean.Application\\Clean.Application.csproj",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj",
+              "RelativeToolTip": "Clean.Application\\Clean.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-19T06:22:33.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
+              "RelativeDocumentMoniker": "Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
+              "RelativeToolTip": "Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:21:30.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Extensions\\ServiceExtentions.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Extensions\\ServiceExtentions.cs",
+              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Extensions\\ServiceExtentions.cs",
+              "RelativeToolTip": "Clean.Application\\Extensions\\ServiceExtentions.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T21:43:26.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "Clean.WebApi\\Program.cs",
@@ -78,24 +194,7 @@
               "RelativeToolTip": "Clean.WebApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:01:49.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\ServiceExtentions.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Application\\ServiceExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T20:59:44.091Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-02-01T21:01:49.837Z"
             }
           ]
         }

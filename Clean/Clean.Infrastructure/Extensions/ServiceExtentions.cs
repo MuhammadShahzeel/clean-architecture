@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clean.Persistence
+namespace Clean.Infrastructure.Extensions
 {
     public static class ServiceExtentions
     {
-        public static void AddPersistance(this IServiceCollection services)
+        public static void AddInfrastructure(this IServiceCollection services)
         {
             //
         }
