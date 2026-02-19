@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplication(); // Extension method from Clean.Application project
 
 builder.Services.AddInfrastructure(); // Extension method from Clean.Infrastructure project
-builder.Services.AddPersistance();  
+builder.Services.AddPersistance(builder.Configuration);  
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

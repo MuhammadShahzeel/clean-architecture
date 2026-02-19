@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Clean.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +12,17 @@ namespace Clean.Persistence.Extensions
 {
     public static class ServiceExtentions
     {
-        public static void AddPersistance(this IServiceCollection services)
+        public static void AddPersistance(this IServiceCollection services, IConfiguration configuration)
         {
             //
+            var connectionString =
+                configuration.GetConnectionString("DefaultConnection")
+        ?? throw new InvalidOperationException("Connection string"
+        + "'DefaultConnection' not found.");
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(connectionString));
+
         }
     }
 }
