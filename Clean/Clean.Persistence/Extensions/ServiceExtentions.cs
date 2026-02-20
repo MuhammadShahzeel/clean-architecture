@@ -1,4 +1,5 @@
-﻿using Clean.Persistence.Context;
+﻿using Clean.Application.Interfaces;
+using Clean.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +23,9 @@ namespace Clean.Persistence.Extensions
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
+
+            // Register the IApplicationDbContext interface with the ApplicationDbContext implementation
+            services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
 
         }
     }

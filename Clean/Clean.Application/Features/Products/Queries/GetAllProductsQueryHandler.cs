@@ -1,5 +1,7 @@
-﻿using Clean.Domain.Entities;
+﻿using Clean.Application.Interfaces;
+using Clean.Domain.Entities;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,25 +14,18 @@ namespace Clean.Application.Features.Products.Queries
         public class GetAllProductsQueryHandler
        : IRequestHandler<GetAllProductsQuery, IEnumerable<Product>>
         {
-            public async Task<IEnumerable<Product>> Handle(
+        private readonly IApplicationDbContext _dbContext;
+
+        public GetAllProductsQueryHandler(IApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public async Task<IEnumerable<Product>> Handle(
                 GetAllProductsQuery request,
                 CancellationToken cancellationToken)
             {
-
-            // dummy data for now, in real scenario we will get data from database
-            var list = new List<Product>();
-
-                for (int i = 0; i < 100; i++)
-                {
-                    list.Add(new Product
-                    {
-                        Name = "Mobile",
-                        Description = "Test Mobile",
-                        Rate = 100 + i
-                    });
-                }
-
-                return list;
+                return await _dbContext.Products.ToListAsync(cancellationToken);
             }
         }
     

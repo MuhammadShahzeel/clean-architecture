@@ -963,6 +963,7 @@
         "dependencies": {
           "Clean.Domain": "1.0.0",
           "MediatR": "14.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.24",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2"
         },
         "compile": {

@@ -60,7 +60,6 @@ C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Cle
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.AssemblyInfoInputs.cache
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.AssemblyInfo.cs
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.sourcelink.json
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
