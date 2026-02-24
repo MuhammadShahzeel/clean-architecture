@@ -1,4 +1,5 @@
-﻿using Clean.Application.Interfaces;
+﻿using AutoMapper;
+using Clean.Application.Interfaces;
 using Clean.Domain.Entities;
 using MediatR;
 using System;
