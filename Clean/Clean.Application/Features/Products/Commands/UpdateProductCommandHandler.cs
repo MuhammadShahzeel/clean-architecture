@@ -12,10 +12,12 @@ namespace Clean.Application.Features.Products.Commands
     public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, int>
     {
         private readonly IApplicationDbContext _dbContext;
+        private readonly IMapper _mapper;
 
-        public UpdateProductCommandHandler  (IApplicationDbContext dbContext)
+        public UpdateProductCommandHandler  (IApplicationDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
+            _mapper = mapper;
         }
 
         public async Task<int> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
@@ -24,10 +26,12 @@ namespace Clean.Application.Features.Products.Commands
             var product = await _dbContext.Products.FindAsync(request.Id);
             if (product == null) return default;
 
-            //   2. Update the product's properties 
-            product.Name = request.Name;
-            product.Description = request.Description;
-            product.Rate = request.Rate;
+            ////   2. Update the product's properties 
+            //product.Name = request.Name;
+            //product.Description = request.Description;
+            //product.Rate = request.Rate;
+
+                _mapper.Map(request, product);
 
 
             // 3. Save changes
