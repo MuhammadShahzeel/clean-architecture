@@ -195,3 +195,5 @@ C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\run
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using FluentValidation;
+using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +14,7 @@ namespace Clean.Application.Extensions
     {
         public static void AddApplication(this IServiceCollection services)
         {
-            //  MediatR register karo
+            //  MediatR register 
             services.AddMediatR(cfg =>
             {
                 cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
@@ -23,6 +25,13 @@ namespace Clean.Application.Extensions
             {
                 cfg.AddMaps(Assembly.GetExecutingAssembly());
             });
+
+            // fluent validation registeration
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+
+            // register pipeline behaviors
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(Behaviours.ValidationBehaviors<,>));
 
         }
     }
