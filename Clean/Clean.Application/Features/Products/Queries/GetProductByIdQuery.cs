@@ -1,4 +1,5 @@
-﻿using Clean.Domain.Entities;
+﻿using Clean.Application.Wrappers;
+using Clean.Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Clean.Application.Features.Products.Queries
 {
-    public class GetProductByIdQuery : IRequest<Product>
+    public class GetProductByIdQuery : IRequest<ApiResponse<Product>>
     {
         public int Id { get; set; }
     }

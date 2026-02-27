@@ -25,3 +25,19 @@ C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Application\obj\Debug\net8.
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Application\obj\Debug\net8.0\refint\Clean.Application.dll
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.pdb
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Application\obj\Debug\net8.0\ref\Clean.Application.dll
+D:\clean\Clean\Clean.Application\bin\Debug\net8.0\Clean.Application.deps.json
+D:\clean\Clean\Clean.Application\bin\Debug\net8.0\Clean.Application.dll
+D:\clean\Clean\Clean.Application\bin\Debug\net8.0\Clean.Application.pdb
+D:\clean\Clean\Clean.Application\bin\Debug\net8.0\Clean.Domain.dll
+D:\clean\Clean\Clean.Application\bin\Debug\net8.0\Clean.Domain.pdb
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.csproj.AssemblyReference.cache
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.AssemblyInfoInputs.cache
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.AssemblyInfo.cs
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.csproj.CoreCompileInputs.cache
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.sourcelink.json
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Ap.33428A71.Up2Date
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.dll
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\refint\Clean.Application.dll
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\Clean.Application.pdb
+D:\clean\Clean\Clean.Application\obj\Debug\net8.0\ref\Clean.Application.dll

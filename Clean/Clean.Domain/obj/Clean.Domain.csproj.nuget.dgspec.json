@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj": {}
+    "D:\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj": {
+    "D:\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj",
+        "projectUniqueName": "D:\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj",
         "projectName": "Clean.Domain",
-        "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj",
+        "projectPath": "D:\\clean\\Clean\\Clean.Domain\\Clean.Domain.csproj",
         "packagesPath": "C:\\Users\\Muhammad Shahzeel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Domain\\obj\\",
+        "outputPath": "D:\\clean\\Clean\\Clean.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,7 @@
 using Clean.Application.Extensions;
 using Clean.Infrastructure.Extensions;
 using Clean.Persistence.Extensions;
+using Clean.WebApi.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseMiddleware<ErrorHandlerMiddleware>();
 
 app.MapControllers();
 

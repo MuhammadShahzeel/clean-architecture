@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using Clean.Application.Exceptions;
+using FluentValidation;
 using MediatR;
 
 namespace Clean.Application.Behaviours
@@ -27,7 +28,7 @@ namespace Clean.Application.Behaviours
 
                 if (failers.Count > 0)
                 {
-                    throw new ValidationException(failers);
+                    throw new ValidationErrorException(failers);
                 }
             }
 

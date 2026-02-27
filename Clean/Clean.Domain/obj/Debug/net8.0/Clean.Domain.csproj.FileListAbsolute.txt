@@ -21,3 +21,15 @@ C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Domain\obj\Debug\net8.0\Cle
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Domain\obj\Debug\net8.0\refint\Clean.Domain.dll
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.pdb
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Domain\obj\Debug\net8.0\ref\Clean.Domain.dll
+D:\clean\Clean\Clean.Domain\bin\Debug\net8.0\Clean.Domain.deps.json
+D:\clean\Clean\Clean.Domain\bin\Debug\net8.0\Clean.Domain.dll
+D:\clean\Clean\Clean.Domain\bin\Debug\net8.0\Clean.Domain.pdb
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.AssemblyInfoInputs.cache
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.AssemblyInfo.cs
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.csproj.CoreCompileInputs.cache
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.sourcelink.json
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.dll
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\refint\Clean.Domain.dll
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\Clean.Domain.pdb
+D:\clean\Clean\Clean.Domain\obj\Debug\net8.0\ref\Clean.Domain.dll

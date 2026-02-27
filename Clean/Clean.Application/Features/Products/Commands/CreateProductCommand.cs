@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Clean.Application.Wrappers;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Clean.Application.Features.Products.Commands
 {
-    public class CreateProductCommand :IRequest<int>
+    public class CreateProductCommand :IRequest<ApiResponse<int>>
     {
         public string Name { get; set; }
         public string Description { get; set; }

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Clean.Application.Interfaces;
+using Clean.Application.Wrappers;
 using Clean.Domain.Entities;
 using MediatR;
 using System;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Clean.Application.Features.Products.Commands
 {
-    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
+    public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, ApiResponse<int>>
     {
         private readonly IApplicationDbContext _dbContext;
         private readonly IMapper _mapper;
@@ -22,7 +23,7 @@ namespace Clean.Application.Features.Products.Commands
         }
 
 
-        public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<int>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
             // 1. Create a Product entity
             //var product = new Product
@@ -45,7 +46,7 @@ namespace Clean.Application.Features.Products.Commands
             await _dbContext.SaveChangesAsync(cancellationToken);
 
             // 4. Return the new product's ID
-            return product.Id;
+            return new ApiResponse<int>(product.Id, "Product created successfully.");
 
 
 

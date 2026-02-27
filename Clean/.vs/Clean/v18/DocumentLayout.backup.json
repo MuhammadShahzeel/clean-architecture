@@ -1,26 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\",
+  "WorkspaceRootPath": "D:\\clean\\Clean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\behaviours\\validationbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\behaviours\\validationbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\commands\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|c:\\users\\muhammad shahzeel\\desktop\\clean\\clean\\clean.application\\features\\products\\commands\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\middlewares\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\middlewares\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\wrappers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\wrappers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\exceptions\\validationerrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\exceptions\\validationerrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\behaviours\\validationbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\behaviours\\validationbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\queries\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\queries\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\queries\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\queries\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,57 +86,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Extensions\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\Extensions\\ServiceExtentions.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Extensions\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Application\\Extensions\\ServiceExtentions.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCEAAABrAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateProductCommandValidator.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T09:39:50.687Z",
+              "WhenOpened": "2026-02-27T12:16:33.433Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DeleteProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
-              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T06:46:04.16Z",
+              "WhenOpened": "2026-02-27T09:29:02.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:37:47.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteProductCommandHandler.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommandHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:38:24.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Clean.WebApi\\Program.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
+              "RelativeToolTip": "Clean.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T11:26:23.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:24:53.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DeleteProductCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
-              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\DeleteProductCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T06:25:16.388Z",
+              "WhenOpened": "2026-02-27T09:29:05.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Wrappers\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Wrappers\\ApiResponse.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Wrappers\\ApiResponse.cs",
+              "RelativeToolTip": "Clean.Application\\Wrappers\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvyQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T08:04:34.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidationErrorException.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Exceptions\\ValidationErrorException.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Exceptions\\ValidationErrorException.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Exceptions\\ValidationErrorException.cs",
+              "RelativeToolTip": "Clean.Application\\Exceptions\\ValidationErrorException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:27:33.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Exceptions\\ApiException.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Exceptions\\ApiException.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Exceptions\\ApiException.cs",
+              "RelativeToolTip": "Clean.Application\\Exceptions\\ApiException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T07:43:06.256Z",
               "EditorCaption": ""
             },
             {
@@ -89,28 +224,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "ValidationBehaviors.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Behaviours\\ValidationBehaviors.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Behaviours\\ValidationBehaviors.cs",
               "RelativeDocumentMoniker": "Clean.Application\\Behaviours\\ValidationBehaviors.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Behaviours\\ValidationBehaviors.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Behaviours\\ValidationBehaviors.cs",
               "RelativeToolTip": "Clean.Application\\Behaviours\\ValidationBehaviors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T12:04:29.649Z",
+              "WhenOpened": "2026-02-27T11:33:45.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateProductCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
-              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Clean.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T11:18:12.32Z",
+              "WhenOpened": "2026-02-27T05:52:38.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetProductByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetProductByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Queries\\GetProductByIdQueryHandler.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetProductByIdQueryHandler.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Queries\\GetProductByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:46:49.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Queries\\GetProductByIdQuery.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Queries\\GetProductByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:13:54.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:07:04.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\UpdateProductCommandHandler.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\UpdateProductCommandHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA+wDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:44:01.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Queries\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:27:40.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\UpdateProductCommand.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\UpdateProductCommand.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:43:37.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "Clean.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T05:40:36.014Z",
               "EditorCaption": ""
             }
           ]

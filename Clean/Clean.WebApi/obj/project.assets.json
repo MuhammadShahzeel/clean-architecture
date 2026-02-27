@@ -4383,11 +4383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.WebApi\\Clean.WebApi.csproj",
+      "projectUniqueName": "D:\\clean\\Clean\\Clean.WebApi\\Clean.WebApi.csproj",
       "projectName": "Clean.WebApi",
-      "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.WebApi\\Clean.WebApi.csproj",
+      "projectPath": "D:\\clean\\Clean\\Clean.WebApi\\Clean.WebApi.csproj",
       "packagesPath": "C:\\Users\\Muhammad Shahzeel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.WebApi\\obj\\",
+      "outputPath": "D:\\clean\\Clean\\Clean.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4408,14 +4408,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj": {
-              "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Application\\Clean.Application.csproj"
+            "D:\\clean\\Clean\\Clean.Application\\Clean.Application.csproj": {
+              "projectPath": "D:\\clean\\Clean\\Clean.Application\\Clean.Application.csproj"
             },
-            "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj"
+            "D:\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
+              "projectPath": "D:\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj"
             },
-            "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Persistence\\Clean.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Muhammad Shahzeel\\Desktop\\clean\\Clean\\Clean.Persistence\\Clean.Persistence.csproj"
+            "D:\\clean\\Clean\\Clean.Persistence\\Clean.Persistence.csproj": {
+              "projectPath": "D:\\clean\\Clean\\Clean.Persistence\\Clean.Persistence.csproj"
             }
           }
         }

@@ -27,3 +27,21 @@ C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\refint\Clean.Persistence.dll
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.pdb
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Persistence\obj\Debug\net8.0\ref\Clean.Persistence.dll
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.deps.json
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.dll
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.pdb
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Application.dll
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Domain.dll
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Application.pdb
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Domain.pdb
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.csproj.AssemblyReference.cache
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.AssemblyInfoInputs.cache
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.AssemblyInfo.cs
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.csproj.CoreCompileInputs.cache
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.sourcelink.json
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Pe.0BA466D3.Up2Date
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.dll
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\refint\Clean.Persistence.dll
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.pdb
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\ref\Clean.Persistence.dll

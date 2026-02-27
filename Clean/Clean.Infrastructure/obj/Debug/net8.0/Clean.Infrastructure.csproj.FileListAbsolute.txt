@@ -27,3 +27,21 @@ C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Infrastructure\obj\Debug\ne
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\refint\Clean.Infrastructure.dll
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.pdb
 C:\Users\Muhammad Shahzeel\Desktop\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\ref\Clean.Infrastructure.dll
+D:\clean\Clean\Clean.Infrastructure\bin\Debug\net8.0\Clean.Infrastructure.deps.json
+D:\clean\Clean\Clean.Infrastructure\bin\Debug\net8.0\Clean.Infrastructure.dll
+D:\clean\Clean\Clean.Infrastructure\bin\Debug\net8.0\Clean.Infrastructure.pdb
+D:\clean\Clean\Clean.Infrastructure\bin\Debug\net8.0\Clean.Application.dll
+D:\clean\Clean\Clean.Infrastructure\bin\Debug\net8.0\Clean.Domain.dll
+D:\clean\Clean\Clean.Infrastructure\bin\Debug\net8.0\Clean.Application.pdb
+D:\clean\Clean\Clean.Infrastructure\bin\Debug\net8.0\Clean.Domain.pdb
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.csproj.AssemblyReference.cache
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.AssemblyInfoInputs.cache
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.AssemblyInfo.cs
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.csproj.CoreCompileInputs.cache
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.sourcelink.json
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.In.D3D4E96B.Up2Date
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.dll
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\refint\Clean.Infrastructure.dll
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\Clean.Infrastructure.pdb
+D:\clean\Clean\Clean.Infrastructure\obj\Debug\net8.0\ref\Clean.Infrastructure.dll
