@@ -15,12 +15,20 @@ namespace Clean.Application.Exceptions
         }
 
         public List<string> Errors { get; set; }
+
+        // for fluent validation
         public ValidationErrorException(List<ValidationFailure> failures) : this()
         {
             foreach (var failure in failures)
             {
                 Errors.Add(failure.ErrorMessage);
             }
+        }
+
+        //for data annotations
+        public ValidationErrorException(List<string> errors) : this()
+        {
+            Errors = errors;
         }
     }
 }

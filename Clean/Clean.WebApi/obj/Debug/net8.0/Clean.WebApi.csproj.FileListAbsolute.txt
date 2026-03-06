@@ -360,3 +360,8 @@ D:\clean\Clean\Clean.WebApi\obj\Debug\net8.0\refint\Clean.WebApi.dll
 D:\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.pdb
 D:\clean\Clean\Clean.WebApi\obj\Debug\net8.0\Clean.WebApi.genruntimeconfig.cache
 D:\clean\Clean\Clean.WebApi\obj\Debug\net8.0\ref\Clean.WebApi.dll
+D:\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\clean\Clean\Clean.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

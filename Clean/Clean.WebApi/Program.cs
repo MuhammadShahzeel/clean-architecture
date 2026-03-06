@@ -1,6 +1,7 @@
 using Clean.Application.Extensions;
 using Clean.Infrastructure.Extensions;
 using Clean.Persistence.Extensions;
+using Clean.Persistence.Seeds;
 using Clean.WebApi.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplication(); // Extension method from Clean.Application project
 
 builder.Services.AddInfrastructure(); // Extension method from Clean.Infrastructure project
-builder.Services.AddPersistance(builder.Configuration);  
+builder.Services.AddPersistance(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,11 +25,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// seed roles and users
 
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    await DefaultRoles.SeedRolesAsync(serviceProvider);
+    await DefaultUsers.SeedUsersAsync(serviceProvider);
+}
+
+app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseMiddleware<ErrorHandlerMiddleware>();
-
 app.MapControllers();
-
 app.Run();

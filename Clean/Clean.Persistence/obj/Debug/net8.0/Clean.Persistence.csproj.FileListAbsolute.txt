@@ -45,3 +45,5 @@ D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.dll
 D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\refint\Clean.Persistence.dll
 D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.pdb
 D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\ref\Clean.Persistence.dll
+D:\clean\Clean\Clean.Persistence\bin\Debug\net8.0\Clean.Persistence.runtimeconfig.json
+D:\clean\Clean\Clean.Persistence\obj\Debug\net8.0\Clean.Persistence.genruntimeconfig.cache

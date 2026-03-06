@@ -1,0 +1,33 @@
+﻿using Clean.Application.DTOs;
+
+using Clean.Application.Interfaces;
+using MediatR;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Clean.WebApi.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AccountController : ControllerBase
+    {
+       
+        private readonly IAccountService _accountService;
+
+ 
+        public AccountController( IAccountService accountService)
+        {
+         
+            _accountService = accountService;
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterRequest registerRequest)
+        {
+            var result = await _accountService.RegisterUser(registerRequest);
+            return Ok(result);
+        }
+
+
+    }
+}

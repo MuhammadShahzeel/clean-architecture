@@ -42,7 +42,10 @@ namespace Clean.WebApi.Middlewares
                         break;
                 }
 
-                var result = JsonSerializer.Serialize(responseModel);
+                var result = JsonSerializer.Serialize(responseModel, new JsonSerializerOptions
+                {
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                });
                 await response.WriteAsync(result);
             }
 
