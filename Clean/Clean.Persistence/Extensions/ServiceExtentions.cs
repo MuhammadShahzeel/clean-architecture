@@ -40,6 +40,8 @@ namespace Clean.Persistence.Extensions
             // register shared services
             services.AddScoped<IAccountService, AccountService>();
 
+            // register token service
+            services.AddScoped<ITokenService, JwtTokenService>();
 
 
 

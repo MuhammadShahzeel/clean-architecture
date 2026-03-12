@@ -1,0 +1,78 @@
+﻿
+using Clean.Application.Extensions;
+using Clean.Application.Settings;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Clean.Infrastructure.Extensions;
+using Clean.Persistence.Extensions;
+using Clean.Persistence.Seeds;
+using Clean.WebApi.Middlewares;
+using Clean.WebApi.Extensions;
+
+
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+var jwtSection = builder.Configuration.GetSection("JwtSettings");
+builder.Services.Configure<JwtSettings>(jwtSection);
+// Configure JWT authentication
+var jwtSettings = jwtSection.Get<JwtSettings>() ?? new JwtSettings();
+var keyBytes = Encoding.UTF8.GetBytes(jwtSettings.Key ?? string.Empty);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = false;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
+        ValidateIssuer = true,
+        ValidIssuer = jwtSettings.Issuer,
+        ValidateAudience = true,
+        ValidAudience = jwtSettings.Audience,
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.FromSeconds(30)
+    };
+});
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerWithJwt(); // Extension method from Clean.WebApi project
+builder.Services.AddApplication(); // Extension method from Clean.Application project
+
+builder.Services.AddInfrastructure(); // Extension method from Clean.Infrastructure project
+builder.Services.AddPersistance(builder.Configuration);
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+// seed roles and users
+
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    await DefaultRoles.SeedRolesAsync(serviceProvider);
+    await DefaultUsers.SeedUsersAsync(serviceProvider);
+}
+
+app.UseHttpsRedirection();
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseMiddleware<ErrorHandlerMiddleware>();
+app.MapControllers();
+app.Run();

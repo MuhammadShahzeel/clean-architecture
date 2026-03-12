@@ -2,20 +2,21 @@ using Clean.Application.Extensions;
 using Clean.Infrastructure.Extensions;
 using Clean.Persistence.Extensions;
 using Clean.Persistence.Seeds;
+using Clean.WebApi.Extensions;
 using Clean.WebApi.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddApplication(); // Extension method from Clean.Application project
 
-builder.Services.AddInfrastructure(); // Extension method from Clean.Infrastructure project
-builder.Services.AddPersistance(builder.Configuration);
+//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerWithJwt(); // Extension method to config jwt authroize btn
+builder.Services.AddJwtAuthentication(builder.Configuration); // extension method to configure jwt authentication 
+builder.Services.AddApplication(); // extension method to register application layer services
+builder.Services.AddInfrastructure(); // extension method to register infrastructure layer services
+builder.Services.AddPersistance(builder.Configuration); // extension method to register persistence layer services
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -35,6 +36,7 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.UseHttpsRedirection();
+app.UseAuthentication(); // authentication middleware should be before authorization middleware
 app.UseAuthorization();
 app.UseMiddleware<ErrorHandlerMiddleware>();
 app.MapControllers();

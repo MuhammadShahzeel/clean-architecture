@@ -22,11 +22,19 @@ namespace Clean.WebApi.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterRequest registerRequest)
+        public async Task<IActionResult> Register([FromBody] RegisterRequest registerRequest, CancellationToken cancellationToken)
         {
             var result = await _accountService.RegisterUser(registerRequest);
             return Ok(result);
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] AuthenticationRequest registerModel, CancellationToken cancellationToken)
+        {
+            var result = await _accountService.Authenticate(registerModel);
+            return Ok(result);
+        }
+
 
 
     }

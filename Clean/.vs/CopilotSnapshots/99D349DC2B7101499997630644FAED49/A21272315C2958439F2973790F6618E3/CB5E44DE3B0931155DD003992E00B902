@@ -1,0 +1,137 @@
+﻿using Clean.Application.DTOs;
+using Clean.Application.Enums;
+using Clean.Application.Exceptions;
+using Clean.Application.Interfaces;
+using Clean.Application.Settings;
+using Clean.Application.Wrappers;
+using Clean.Persistence.IdentityModels;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
+namespace Clean.Persistence.SharedServices
+{
+    public class AccountService : IAccountService
+    {
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly JwtSettings _jwtSettings;
+
+        public AccountService(UserManager<ApplicationUser> userManager, IOptions<JwtSettings> jwtOptions)
+        {
+            _userManager = userManager;
+            _jwtSettings = jwtOptions?.Value ?? throw new ArgumentNullException(nameof(jwtOptions));
+        }
+
+        public async Task<ApiResponse<Guid>> RegisterUser(RegisterRequest registerRequest)
+        {
+            var user = await _userManager.FindByEmailAsync(registerRequest.Email);
+            if (user != null)
+            {
+                throw new ApiException($"User already taken {registerRequest.Email}");
+            }
+
+            var userModel = new ApplicationUser
+            {
+                UserName = registerRequest.UserName,
+                Email = registerRequest.Email,
+                FirstName = registerRequest.FirstName,
+                LastName = registerRequest.LastName,
+                Gender = registerRequest.Gender,
+                EmailConfirmed = true,
+                PhoneNumberConfirmed = true
+            };
+
+            var result = await _userManager.CreateAsync(userModel, registerRequest.Password);
+
+            if (result.Succeeded)
+            {
+                await _userManager.AddToRoleAsync(userModel, Roles.Basic.ToString());
+                return new ApiResponse<Guid>(userModel.Id, "User Registered successfully");
+            }
+            else
+            {
+                var errors = result.Errors
+                    .Select(e => e.Description)
+                    .ToList();
+
+                throw new ValidationErrorException(errors);
+            }
+        }
+
+        public async Task<ApiResponse<AuthenticationResponse>> Authenticate(AuthenticationRequest request)
+        {
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if (user == null)
+            {
+                throw new ApiException("Email or password is incorrect");
+            }
+
+            var succeeded = await _userManager.CheckPasswordAsync(user, request.Password);
+            if (!succeeded)
+            {
+                throw new ApiException($"Email or password is incorrect");
+            }
+
+            // Single DB call — roles & claims yahan fetch karo, GenerateToken ko pass karo
+            var roles = await _userManager.GetRolesAsync(user);
+            var dbClaims = await _userManager.GetClaimsAsync(user);
+
+            var jwtSecurity = GenerateToken(user, roles, dbClaims);
+
+            var authenticationResponse = new AuthenticationResponse
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email,
+                IsVerified = user.EmailConfirmed,
+                Roles = roles.ToList(),
+                JWToken = new JwtSecurityTokenHandler().WriteToken(jwtSecurity)
+            };
+
+            return new ApiResponse<AuthenticationResponse>(authenticationResponse, "Authenticated User");
+        }
+
+        // Sync — roles/claims bahar se aa rahe hain, double DB call nahi
+        private JwtSecurityToken GenerateToken(ApplicationUser user,
+            IList<string> roles, IList<Claim> dbClaims)
+        {
+            if (string.IsNullOrWhiteSpace(_jwtSettings.Key))
+                throw new InvalidOperationException("JWT signing key is not configured.");
+
+            var roleClaims = roles.Select(r => new Claim(ClaimTypes.Role, r)).ToList();
+
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(JwtRegisteredClaimNames.Email, user.Email ?? string.Empty),
+                new Claim(ClaimTypes.Name, user.UserName ?? string.Empty),
+                new Claim(JwtRegisteredClaimNames.Iat, DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(), ClaimValueTypes.Integer64)
+            }
+            .Union(dbClaims)
+            .Union(roleClaims);
+
+            var symmetricSecurityKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(_jwtSettings.Key)
+            );
+
+            var signingCredentials = new SigningCredentials(
+                symmetricSecurityKey,
+                SecurityAlgorithms.HmacSha256
+            );
+
+            var jwtSecurityToken = new JwtSecurityToken(
+                issuer: _jwtSettings.Issuer,
+                audience: _jwtSettings.Audience,
+                claims: claims,
+                expires: DateTime.UtcNow.AddMinutes(_jwtSettings.DurationInMinutes),
+                signingCredentials: signingCredentials
+            );
+
+            return jwtSecurityToken;
+        }
+    }
+}
