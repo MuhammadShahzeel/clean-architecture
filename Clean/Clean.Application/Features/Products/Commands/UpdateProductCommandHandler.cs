@@ -16,11 +16,13 @@ namespace Clean.Application.Features.Products.Commands
     {
         private readonly IApplicationDbContext _dbContext;
         private readonly IMapper _mapper;
+        private readonly IAuthenticatedUser _authenticatedUser;
 
-        public UpdateProductCommandHandler  (IApplicationDbContext dbContext, IMapper mapper)
+        public UpdateProductCommandHandler  (IApplicationDbContext dbContext, IMapper mapper, IAuthenticatedUser authenticatedUser)
         {
             _dbContext = dbContext;
             _mapper = mapper;
+            _authenticatedUser = authenticatedUser;
         }
 
         public async Task<ApiResponse<int>> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
@@ -36,6 +38,9 @@ namespace Clean.Application.Features.Products.Commands
 
             _mapper.Map(request, product);
 
+            // audit fields assign
+            product.ModifiedBy = _authenticatedUser.UserId;
+            product.ModifiedOn = DateTime.Now;
 
             // 3. Save changes
 

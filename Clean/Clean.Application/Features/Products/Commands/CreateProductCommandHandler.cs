@@ -15,11 +15,13 @@ namespace Clean.Application.Features.Products.Commands
     {
         private readonly IApplicationDbContext _dbContext;
         private readonly IMapper _mapper;
+        private readonly IAuthenticatedUser _authenticatedUser;
 
-        public CreateProductCommandHandler(IApplicationDbContext dbContext,IMapper mapper)
+        public CreateProductCommandHandler(IApplicationDbContext dbContext,IMapper mapper,IAuthenticatedUser authenticatedUser)
         {
             _dbContext = dbContext;
             _mapper = mapper;
+            _authenticatedUser = authenticatedUser;
         }
 
 
@@ -38,7 +40,8 @@ namespace Clean.Application.Features.Products.Commands
             // automapping
             // <source, destination>
             var product = _mapper.Map<Product>(request);
-
+            product.CreatedBy = _authenticatedUser.UserId;
+            product.CreatedOn = DateTime.Now;
             // 2. Add it to DbContext
             await  _dbContext.Products.AddAsync(product);
 
