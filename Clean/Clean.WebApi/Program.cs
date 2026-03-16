@@ -16,7 +16,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerWithJwt(); // Extension method to config jwt authroize btn
 builder.Services.AddJwtAuthentication(builder.Configuration); // extension method to configure jwt authentication 
 builder.Services.AddApplication(); // extension method to register application layer services
-builder.Services.AddInfrastructure(); // extension method to register infrastructure layer services
+builder.Services.AddInfrastructure(builder.Configuration); // extension method to register infrastructure layer services
 builder.Services.AddPersistance(builder.Configuration); // extension method to register persistence layer services
 builder.Services.AddScoped<IAuthenticatedUser, AuthenticatedUser>(); // registering the implementation of IAuthenticatedUser to be used in the application, it will be used to get the current authenticated user's information in the application
 builder.Services.AddHttpContextAccessor(); // registering the HttpContextAccessor to be used in the AuthenticatedUser class to get the current authenticated user's information from the HttpContext
