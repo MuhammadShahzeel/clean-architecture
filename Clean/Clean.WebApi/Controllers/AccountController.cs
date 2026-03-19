@@ -36,6 +36,15 @@ namespace Clean.WebApi.Controllers
         }
 
 
+        [HttpGet("confirm-email")]
+        public async Task<IActionResult> ConfirmEmail([FromQuery] ConfirmEmailRequest confirmEmailRequest, CancellationToken cancellationToken)
+        {
+            var result = await _accountService.ConfirmEmail(confirmEmailRequest);
+            return Ok(result);
+        }
+
+
+
 
     }
 }

@@ -1,10 +1,5 @@
 ﻿using Clean.Application.DTOs;
 using Clean.Application.Wrappers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Clean.Application.Interfaces
 {
@@ -12,5 +7,11 @@ namespace Clean.Application.Interfaces
     {
         Task<ApiResponse<Guid>> RegisterUser(RegisterRequest registerRequest);
         Task<ApiResponse<AuthenticationResponse>> Authenticate(AuthenticationRequest request);
+        Task<ApiResponse<string>> ConfirmEmail(ConfirmEmailRequest request);
+
+
+
+
+
     }
 }

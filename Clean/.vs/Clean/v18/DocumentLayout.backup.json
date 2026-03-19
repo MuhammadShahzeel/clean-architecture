@@ -7,44 +7,16 @@
       "RelativeMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|solutionrelative:clean.persistence\\sharedservices\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|d:\\clean\\clean\\clean.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|solutionrelative:clean.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|d:\\clean\\clean\\clean.infrastructure\\clean.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|solutionrelative:clean.infrastructure\\clean.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|d:\\clean\\clean\\clean.persistence\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|solutionrelative:clean.persistence\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|d:\\clean\\clean\\clean.infrastructure\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C668DFA-E443-4CD4-8B48-B328F1AA7557}|Clean.Infrastructure\\Clean.Infrastructure.csproj|solutionrelative:clean.infrastructure\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,152 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Clean.WebApi\\Program.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
-              "RelativeToolTip": "Clean.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:26:23.545Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T14:19:51.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Infrastructure\\Extensions\\ServiceExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:25:40.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Clean.WebApi\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "Clean.WebApi\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:25:27.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Clean.WebApi\\appsettings.Development.json",
-              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\appsettings.Development.json",
-              "RelativeToolTip": "Clean.WebApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-16T12:24:48.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\SharedServices\\AccountService.cs",
-              "RelativeDocumentMoniker": "Clean.Persistence\\SharedServices\\AccountService.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\SharedServices\\AccountService.cs",
-              "RelativeToolTip": "Clean.Persistence\\SharedServices\\AccountService.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAApwH0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:14:32.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Clean.Infrastructure",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Clean.Infrastructure\\Clean.Infrastructure.csproj",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
-              "RelativeToolTip": "Clean.Infrastructure\\Clean.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-16T11:53:03.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailSettings.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Settings\\EmailSettings.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\Settings\\EmailSettings.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Settings\\EmailSettings.cs",
-              "RelativeToolTip": "Clean.Application\\Settings\\EmailSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T10:46:53.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Infrastructure\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Clean.Infrastructure\\Services\\EmailService.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Infrastructure\\Services\\EmailService.cs",
-              "RelativeToolTip": "Clean.Infrastructure\\Services\\EmailService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T10:18:22.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\Interfaces\\IEmailService.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "Clean.Application\\Interfaces\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T10:00:56.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmailRequest.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\DTOs\\EmailRequest.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\DTOs\\EmailRequest.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\DTOs\\EmailRequest.cs",
-              "RelativeToolTip": "Clean.Application\\DTOs\\EmailRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T09:56:18.152Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -213,8 +41,60 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceExtentions.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "RelativeDocumentMoniker": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "RelativeToolTip": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:50:14.961Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Clean.WebApi\\appsettings.Development.json",
+              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "Clean.WebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-19T09:31:12.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Clean.WebApi\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Clean.WebApi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwCYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:25:31.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\SharedServices\\AccountService.cs",
+              "RelativeDocumentMoniker": "Clean.Persistence\\SharedServices\\AccountService.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\SharedServices\\AccountService.cs",
+              "RelativeToolTip": "Clean.Persistence\\SharedServices\\AccountService.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAiwLcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T12:14:32.509Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,8 +1,10 @@
 ﻿using Clean.Application.Interfaces;
+using Clean.Application.Settings;
 using Clean.Persistence.Context;
 using Clean.Persistence.IdentityModels;
 using Clean.Persistence.Seeds;
 using Clean.Persistence.SharedServices;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,9 +27,17 @@ namespace Clean.Persistence.Extensions
 
 
             //register identity
+            services.AddDataProtection();
             services.AddIdentityCore<ApplicationUser>()
            .AddRoles<ApplicationRole>()
-           .AddEntityFrameworkStores<ApplicationDbContext>();
+           .AddEntityFrameworkStores<ApplicationDbContext>()
+           .AddDefaultTokenProviders()
+           ;
+            // configure token lifespan
+            services.Configure<DataProtectionTokenProviderOptions>(options =>
+            {
+                options.TokenLifespan = TimeSpan.FromMinutes(30);
+            });
             // you can usee identityuser and identityrole as well instead of applicationuser and applicationrole
 
 
@@ -42,6 +52,9 @@ namespace Clean.Persistence.Extensions
 
             // register token service
             services.AddScoped<ITokenService, JwtTokenService>();
+
+            // to get from app settings
+            services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
 
 
 

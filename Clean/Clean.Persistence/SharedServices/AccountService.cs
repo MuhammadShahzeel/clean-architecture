@@ -6,7 +6,9 @@ using Clean.Application.Settings;
 using Clean.Application.Wrappers;
 using Clean.Persistence.IdentityModels;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Options;
+using System.Text;
 
 namespace Clean.Persistence.SharedServices
 {
@@ -15,13 +17,12 @@ namespace Clean.Persistence.SharedServices
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ITokenService _tokenService;
         private readonly IEmailService _emailService;
-
-        public AccountService(UserManager<ApplicationUser> userManager, ITokenService tokenService, IOptions<JwtSettings> jwtOptions, IEmailService emailService)
+        private readonly AppSettings _appSettings;
+        public AccountService(UserManager<ApplicationUser> userManager, ITokenService tokenService, IOptions<AppSettings> appSettings, IEmailService emailService)
         {
             _userManager = userManager;
             _tokenService = tokenService ?? throw new ArgumentNullException(nameof(tokenService));
-            // jwtOptions kept for backward compatibility if needed elsewhere; not used here
-            _ = jwtOptions ?? throw new ArgumentNullException(nameof(jwtOptions));
+            _appSettings = appSettings.Value;
             _emailService = emailService;
         }
 
@@ -40,7 +41,7 @@ namespace Clean.Persistence.SharedServices
                 FirstName = registerRequest.FirstName,
                 LastName = registerRequest.LastName,
                 Gender = registerRequest.Gender,
-                EmailConfirmed = true,
+                //EmailConfirmed = true,
                 PhoneNumberConfirmed = true
             };
 
@@ -49,83 +50,8 @@ namespace Clean.Persistence.SharedServices
             if (result.Succeeded)
             {
                 await _userManager.AddToRoleAsync(userModel, Roles.Basic.ToString());
-                string emailTemplate = @"<!DOCTYPE html>
-<html>
-<head>
-    <meta charset=""UTF-8"">
-    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-    <title>Welcome Email</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 600px;
-            background: #ffffff;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .header {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-        }
-        .content {
-            font-size: 16px;
-            color: #666;
-            margin-top: 10px;
-        }
-        .button {
-            display: inline-block;
-            background-color: #FF0000;
-            color: #ffffff;
-            padding: 12px 20px;
-            margin-top: 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .footer {
-            margin-top: 20px;
-            font-size: 12px;
-            color: #999;
-        }
-    </style>
-</head>
-<body>
-    <div class=""container"">
-        <div class=""header"">Welcome [UserName]</div>
-        <div class=""content"">
-            Thank you for joining us. We are excited to have you on board. Click the button below to subscribe to my channel!
-        </div>
-        <a href="" target=""_blank"" class=""button"">Subscribe Now</a>
-        <div class=""footer"">
-            If you have any questions, feel free to contact us at <a href="" target=""_blank"">LinkedIn</a>
-        </div>
-    </div>
-</body>
-</html>
-";
+              await SendConfirmationEmailAsync(userModel);
 
-                var emailRequest = new EmailRequest()
-                {
-                    To = userModel.Email,
-                    Body = emailTemplate.Replace("[UserName]", userModel.UserName), // aspper needed
-                    Subject = $"Welcome {userModel.Email} to CleanArchitecture",
-                    IsHtmlBody = true,
-                };
-
-
-               //Body = "User Register successfuly";
-               // isHtmlBody=false  if for simple text
-
-                await _emailService.SendAsync(emailRequest);
                 return new ApiResponse<Guid>(userModel.Id, "User Registered successfully");
             }
             else
@@ -138,6 +64,48 @@ namespace Clean.Persistence.SharedServices
             }
         }
 
+        private async Task SendConfirmationEmailAsync(ApplicationUser userModel)
+        {
+            //  Confirmation token generate 
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(userModel);
+
+            //  Token URL encode 
+            var encodedToken = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
+
+            //  Confirmation link banao
+            var confirmationLink =
+  $"{_appSettings.ClientUrl}/api/account/confirm-email?userId={userModel.Id}&token={encodedToken}";
+            string emailTemplate = $@"<!DOCTYPE html>
+<html>
+<body style='font-family:Arial; background:#f4f4f4; margin:0; padding:0;'>
+    <div style='max-width:600px; background:#fff; margin:20px auto; padding:20px; border-radius:8px;'>
+        <h2 style='color:#333;'>Hey {userModel.UserName}, confirm your email!</h2>
+        <p style='color:#666;'>Click the button below to verify your account.</p>
+        <a href='{confirmationLink}' 
+           style='display:inline-block; background:#4F46E5; color:#fff; 
+                  padding:12px 24px; border-radius:5px; text-decoration:none; 
+                  font-weight:bold; margin-top:10px;'>
+            Confirm Email
+        </a>
+        <p style='color:#999; font-size:12px; margin-top:20px;'>
+            Link 24 hours mein expire ho jayega.
+        </p>
+    </div>
+</body>
+</html>";
+
+
+            var emailRequest = new EmailRequest
+            {
+                To = userModel.Email,
+                Subject = "Confirm Your Email",
+                Body = emailTemplate,
+                IsHtmlBody = true,
+            };
+
+            await _emailService.SendAsync(emailRequest);
+        }
+
         public async Task<ApiResponse<AuthenticationResponse>> Authenticate(AuthenticationRequest request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
@@ -146,11 +114,17 @@ namespace Clean.Persistence.SharedServices
                 throw new ApiException("Email or password is incorrect");
             }
 
+            if(!user.EmailConfirmed)
+            {
+                throw new ApiException("Email not confirmed. Please check your inbox.");
+            }   
+
             var succeeded = await _userManager.CheckPasswordAsync(user, request.Password);
             if (!succeeded)
             {
                 throw new ApiException($"Email or password is incorrect");
             }
+
 
             // Single DB call — roles & claims yahan fetch karo, GenerateToken ko pass karo
             var roles = await _userManager.GetRolesAsync(user);
@@ -176,6 +150,35 @@ namespace Clean.Persistence.SharedServices
             return new ApiResponse<AuthenticationResponse>(authenticationResponse, "Authenticated User");
         }
 
-        // Token generation is delegated to ITokenService to keep concerns separated and improve testability.
+
+        //this will call when click on verification button through controller
+
+
+        public async Task<ApiResponse<string>> ConfirmEmail(ConfirmEmailRequest request)
+        {
+            var user = await _userManager.FindByIdAsync(request.UserId);
+            if (user == null)
+                throw new ApiException("User not found.");
+
+            //  Token decode 
+            var decodedToken = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(request.Token));
+
+            var result = await _userManager.ConfirmEmailAsync(user, decodedToken);
+
+            if (!result.Succeeded)
+            {
+                var errors = result.Errors.Select(e => e.Description);
+                var errorMessage = string.Join(", ", errors);
+
+                throw new ApiException(errorMessage);
+            }
+
+            return new ApiResponse<string>(user.Email, "Email confirmed successfully.");
+        }
+
+
+
+
+
     }
 }
