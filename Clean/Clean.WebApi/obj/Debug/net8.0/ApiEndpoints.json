@@ -53,6 +53,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Clean.WebApi.Controllers.AccountController",
+    "Method": "ResendEmail",
+    "RelativePath": "api/Account/resend-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Clean.WebApi.Controllers.ProductsController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Products",

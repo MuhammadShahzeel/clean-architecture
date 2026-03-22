@@ -176,7 +176,22 @@ namespace Clean.Persistence.SharedServices
             return new ApiResponse<string>(user.Email, "Email confirmed successfully.");
         }
 
+        public async Task<ApiResponse<string>> ResendConfirmEmail(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+                throw new ApiException("User not found.");
 
+            if (user.EmailConfirmed) { 
+                throw new ApiException("Email is already confirmed.");
+
+            }
+                await SendConfirmationEmailAsync(user);
+
+
+
+            return new ApiResponse<string>(email, "Email confirmation link has been resent.");
+        }
 
 
 

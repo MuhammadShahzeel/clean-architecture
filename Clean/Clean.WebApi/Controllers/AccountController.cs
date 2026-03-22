@@ -11,13 +11,13 @@ namespace Clean.WebApi.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-       
+
         private readonly IAccountService _accountService;
 
- 
-        public AccountController( IAccountService accountService)
+
+        public AccountController(IAccountService accountService)
         {
-         
+
             _accountService = accountService;
         }
 
@@ -43,8 +43,15 @@ namespace Clean.WebApi.Controllers
             return Ok(result);
         }
 
+        [HttpGet("resend-email")]
+        public async Task<IActionResult> ResendEmail([FromQuery] string email, CancellationToken cancellationToken)
+        {
+            var result = await _accountService.ResendConfirmEmail(email);
+            return Ok(result);
 
 
 
+
+        }
     }
 }

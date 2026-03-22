@@ -8,10 +8,6 @@ namespace Clean.Application.Interfaces
         Task<ApiResponse<Guid>> RegisterUser(RegisterRequest registerRequest);
         Task<ApiResponse<AuthenticationResponse>> Authenticate(AuthenticationRequest request);
         Task<ApiResponse<string>> ConfirmEmail(ConfirmEmailRequest request);
-
-
-
-
-
+        Task<ApiResponse<string>> ResendConfirmEmail(string email);
     }
 }
