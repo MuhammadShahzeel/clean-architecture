@@ -9,5 +9,7 @@ namespace Clean.Application.Interfaces
         Task<ApiResponse<AuthenticationResponse>> Authenticate(AuthenticationRequest request);
         Task<ApiResponse<string>> ConfirmEmail(ConfirmEmailRequest request);
         Task<ApiResponse<string>> ResendConfirmEmail(string email);
+        Task<ApiResponse<bool>> ForgotPasswordAsync(string userEmail);
+        Task<ApiResponse<bool>> ResetPasswordAsync(ResetPasswordRequest resetPassword);
     }
 }
