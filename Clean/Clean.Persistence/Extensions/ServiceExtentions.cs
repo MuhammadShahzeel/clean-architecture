@@ -39,8 +39,13 @@ namespace Clean.Persistence.Extensions
                 options.TokenLifespan = TimeSpan.FromMinutes(30);
             });
             // you can usee identityuser and identityrole as well instead of applicationuser and applicationrole
-
-
+            //for account lockout
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.MaxFailedAccessAttempts = 3;
+                options.Lockout.AllowedForNewUsers = true;
+            });
             //always register here
 
             services.AddDbContext<ApplicationDbContext>(options =>

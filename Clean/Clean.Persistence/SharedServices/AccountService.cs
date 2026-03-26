@@ -117,11 +117,15 @@ namespace Clean.Persistence.SharedServices
             if(!user.EmailConfirmed)
             {
                 throw new ApiException("Email not confirmed. Please check your inbox.");
-            }   
-
+            }
+            if (await _userManager.IsLockedOutAsync(user))
+            {
+                throw new ApiException($"Your account is locked, please try agina later.");
+            }
             var succeeded = await _userManager.CheckPasswordAsync(user, request.Password);
             if (!succeeded)
             {
+                await _userManager.AccessFailedAsync(user);
                 throw new ApiException($"Email or password is incorrect");
             }
 
