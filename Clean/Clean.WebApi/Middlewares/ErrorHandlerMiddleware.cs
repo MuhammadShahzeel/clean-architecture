@@ -8,9 +8,11 @@ namespace Clean.WebApi.Middlewares
     public class ErrorHandlerMiddleware
     {
         private readonly RequestDelegate _next;
-        public ErrorHandlerMiddleware(RequestDelegate next)
+        private readonly ILogger<ErrorHandlerMiddleware> _logger;
+        public ErrorHandlerMiddleware(RequestDelegate next, ILogger<ErrorHandlerMiddleware> logger)
         {
             _next = next;
+            _logger = logger;
         }
 
         public async Task InvokeAsync(HttpContext context)
@@ -41,7 +43,7 @@ namespace Clean.WebApi.Middlewares
                         response.StatusCode = (int)HttpStatusCode.InternalServerError;
                         break;
                 }
-
+                _logger.LogError(ex,ex.Message);
                 var result = JsonSerializer.Serialize(responseModel, new JsonSerializerOptions
                 {
                     PropertyNamingPolicy = JsonNamingPolicy.CamelCase

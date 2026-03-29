@@ -6,41 +6,70 @@ using Clean.Persistence.Seeds;
 using Clean.WebApi.Extensions;
 using Clean.WebApi.Middlewares;
 using Clean.WebApi.Services.SharedServices;
+using Serilog;
+using Serilog.Sinks.MSSqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
+Log.Logger = new LoggerConfiguration()
+           .MinimumLevel.Information()
+           .WriteTo.Console()
+           .WriteTo.MSSqlServer(
+            connectionString: builder.Configuration.GetConnectionString("DefaultConnection"),
+            sinkOptions: new MSSqlServerSinkOptions { TableName = "SeriLogEvents",AutoCreateSqlTable=true }) 
+           //create logging table in sql server
+           //.WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day) for file
+           .CreateLogger();
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
+//Log.Information("Hello, world!");
 
-//builder.Services.AddSwaggerGen();
-builder.Services.AddSwaggerWithJwt(); // Extension method to config jwt authroize btn
-builder.Services.AddJwtAuthentication(builder.Configuration); // extension method to configure jwt authentication 
-builder.Services.AddApplication(); // extension method to register application layer services
-builder.Services.AddInfrastructure(builder.Configuration); // extension method to register infrastructure layer services
-builder.Services.AddPersistance(builder.Configuration); // extension method to register persistence layer services
-builder.Services.AddScoped<IAuthenticatedUser, AuthenticatedUser>(); // registering the implementation of IAuthenticatedUser to be used in the application, it will be used to get the current authenticated user's information in the application
-builder.Services.AddHttpContextAccessor(); // registering the HttpContextAccessor to be used in the AuthenticatedUser class to get the current authenticated user's information from the HttpContext
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//int a = 10, b = 0;
+try
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    builder.Host.UseSerilog();
+    //Log.Debug("Dividing {A} by {B}", a, b);
+    //Console.WriteLine(a / b);
+    builder.Services.AddControllers();
+    builder.Services.AddEndpointsApiExplorer();
+
+    //builder.Services.AddSwaggerGen();
+    builder.Services.AddSwaggerWithJwt(); // Extension method to config jwt authroize btn
+    builder.Services.AddJwtAuthentication(builder.Configuration); // extension method to configure jwt authentication 
+    builder.Services.AddApplication(); // extension method to register application layer services
+    builder.Services.AddInfrastructure(builder.Configuration); // extension method to register infrastructure layer services
+    builder.Services.AddPersistance(builder.Configuration); // extension method to register persistence layer services
+    builder.Services.AddScoped<IAuthenticatedUser, AuthenticatedUser>(); // registering the implementation of IAuthenticatedUser to be used in the application, it will be used to get the current authenticated user's information in the application
+    builder.Services.AddHttpContextAccessor(); // registering the HttpContextAccessor to be used in the AuthenticatedUser class to get the current authenticated user's information from the HttpContext
+    var app = builder.Build();
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
+
+    // seed roles and users
+
+    using (var scope = app.Services.CreateScope())
+    {
+        var serviceProvider = scope.ServiceProvider;
+        await DefaultRoles.SeedRolesAsync(serviceProvider);
+        await DefaultUsers.SeedUsersAsync(serviceProvider);
+    }
+
+    app.UseHttpsRedirection();
+    app.UseAuthentication(); // authentication middleware should be before authorization middleware
+    app.UseAuthorization();
+    app.UseMiddleware<ErrorHandlerMiddleware>();
+    app.MapControllers();
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Error(ex, "Something went wrong");
+}
+finally
+{
+    await Log.CloseAndFlushAsync();
 }
 
-// seed roles and users
-
-using (var scope = app.Services.CreateScope())
-{
-    var serviceProvider = scope.ServiceProvider;
-    await DefaultRoles.SeedRolesAsync(serviceProvider);
-    await DefaultUsers.SeedUsersAsync(serviceProvider);
-}
-
-app.UseHttpsRedirection();
-app.UseAuthentication(); // authentication middleware should be before authorization middleware
-app.UseAuthorization();
-app.UseMiddleware<ErrorHandlerMiddleware>();
-app.MapControllers();
-app.Run();

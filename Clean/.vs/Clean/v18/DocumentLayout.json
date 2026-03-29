@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\clean\\Clean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|d:\\clean\\clean\\clean.persistence\\sharedservices\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|solutionrelative:clean.persistence\\sharedservices\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\middlewares\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\middlewares\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|d:\\clean\\clean\\clean.persistence\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|solutionrelative:clean.persistence\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -53,78 +37,45 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Clean.WebApi\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Clean.WebApi\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAIBAwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T21:00:37.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResetPasswordRequest.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\DTOs\\ResetPasswordRequest.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\DTOs\\ResetPasswordRequest.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\DTOs\\ResetPasswordRequest.cs",
-              "RelativeToolTip": "Clean.Application\\DTOs\\ResetPasswordRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T20:50:44.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Interfaces\\IAccountService.cs",
-              "RelativeDocumentMoniker": "Clean.Application\\Interfaces\\IAccountService.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Interfaces\\IAccountService.cs",
-              "RelativeToolTip": "Clean.Application\\Interfaces\\IAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T18:06:43.849Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwCkAAAAhAAAAAAAAAA==",
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T10:50:14.961Z",
+              "WhenOpened": "2026-03-29T17:10:27.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Clean.WebApi\\appsettings.Development.json",
-              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\appsettings.Development.json",
-              "RelativeToolTip": "Clean.WebApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-19T09:31:12.984Z",
-              "EditorCaption": ""
+              "Title": "ServiceExtentions.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "RelativeDocumentMoniker": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "RelativeToolTip": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T16:14:47.606Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\SharedServices\\AccountService.cs",
-              "RelativeDocumentMoniker": "Clean.Persistence\\SharedServices\\AccountService.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\SharedServices\\AccountService.cs",
-              "RelativeToolTip": "Clean.Persistence\\SharedServices\\AccountService.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAxwH8AAAA7AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Clean.WebApi\\Program.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
+              "RelativeToolTip": "Clean.WebApi\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAxwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T12:14:32.509Z",
+              "WhenOpened": "2026-03-29T15:50:30.495Z",
               "EditorCaption": ""
             }
           ]
