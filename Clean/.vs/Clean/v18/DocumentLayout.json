@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\clean\\Clean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|d:\\clean\\clean\\clean.application\\features\\products\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20B6A70E-D033-4EF5-A67D-CC269FD4ADE0}|Clean.Application\\Clean.Application.csproj|solutionrelative:clean.application\\features\\products\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|d:\\clean\\clean\\clean.webapi\\middlewares\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59FD00FB-9618-42AE-A6F4-45AE0DD0B149}|Clean.WebApi\\Clean.WebApi.csproj|solutionrelative:clean.webapi\\middlewares\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D58BB5-1070-4FE2-A12D-DF802FF04B05}|Clean.Domain\\Clean.Domain.csproj|d:\\clean\\clean\\clean.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D58BB5-1070-4FE2-A12D-DF802FF04B05}|Clean.Domain\\Clean.Domain.csproj|solutionrelative:clean.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|d:\\clean\\clean\\clean.persistence\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD6F411E-ECBD-477F-A077-E41B95449204}|Clean.Persistence\\Clean.Persistence.csproj|solutionrelative:clean.persistence\\extensions\\serviceextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D58BB5-1070-4FE2-A12D-DF802FF04B05}|Clean.Domain\\Clean.Domain.csproj|d:\\clean\\clean\\clean.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D58BB5-1070-4FE2-A12D-DF802FF04B05}|Clean.Domain\\Clean.Domain.csproj|solutionrelative:clean.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "Clean.Application\\Features\\Products\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T13:47:19.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -38,44 +55,36 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorHandlerMiddleware.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "RelativeToolTip": "Clean.WebApi\\Middlewares\\ErrorHandlerMiddleware.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T17:10:27.524Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServiceExtentions.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "RelativeDocumentMoniker": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "RelativeToolTip": "Clean.Persistence\\Extensions\\ServiceExtentions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Clean.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Clean.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:14:47.606Z"
+              "WhenOpened": "2026-04-26T12:35:39.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Clean.WebApi\\Program.cs",
-              "ToolTip": "D:\\clean\\Clean\\Clean.WebApi\\Program.cs",
-              "RelativeToolTip": "Clean.WebApi\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAxwEsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\clean\\Clean\\Clean.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Clean.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\clean\\Clean\\Clean.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Clean.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T15:50:30.495Z",
+              "WhenOpened": "2026-04-26T12:35:34.142Z",
               "EditorCaption": ""
             }
           ]

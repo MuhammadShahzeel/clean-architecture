@@ -14,10 +14,11 @@ namespace Clean.Application.Extensions
     {
         public static void AddApplication(this IServiceCollection services)
         {
+            var assembly = typeof(ServiceExtentions).Assembly; 
             //  MediatR register 
             services.AddMediatR(cfg =>
             {
-                cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+                cfg.RegisterServicesFromAssembly(assembly);
             });
 
             //register AutoMapper
@@ -27,7 +28,7 @@ namespace Clean.Application.Extensions
             });
 
             // fluent validation registeration
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            services.AddValidatorsFromAssembly(assembly);
 
 
             // register pipeline behaviors
